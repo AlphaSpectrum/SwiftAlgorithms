@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol Sortable {
-    
+    func insertionSort<T>(_ elements: [T]) -> [T] where T : Comparable
 }
